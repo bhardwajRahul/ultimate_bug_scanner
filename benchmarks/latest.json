@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-10-17T09:05:53Z",
+  "runs_per_item": 3,
+  "engine": {
+    "ubs_sha": "b61e464",
+    "ubs_version": "5.4.16",
+    "ast_grep": "ast-grep 0.45.3"
+  },
+  "host": {
+    "cores": 4,
+    "os": "Linux"
+  },
+  "corpus": [
+    {
+      "name": "fixtures",
+      "files": 653,
+      "lines": 75562,
+      "runs": 3,
+      "wall_s": 302.105,
+      "wall_s_min": 302.088,
+      "wall_s_max": 302.112,
+      "cpu_s": 7.38,
+      "rss_mb": 247,
+      "exit_codes": [
+        2
+      ],
+      "timeouts": 1,
+      "profile_total_ms": 301650,
+      "totals": {
+        "critical": 887,
+        "warning": 1335,
+        "info": 2812,
+        "files": 475
+      }
+    },
+    {
+      "name": "synthetic-50k",
+      "files": 367,
+      "lines": 49637,
+      "runs": 3,
+      "wall_s": 301.347,
+      "wall_s_min": 301.296,
+      "wall_s_max": 301.371,
+      "cpu_s": 4.83,
+      "rss_mb": 51,
+      "exit_codes": [
+        2
+      ],
+      "timeouts": 1,
+      "profile_total_ms": 301026,
+      "totals": {
+        "critical": 379,
+        "warning": 622,
+        "info": 1457,
+        "files": 250
+      }
+    }
+  ],
+  "single_file": {
+    "name": "single-file",
+    "file": "test-suite/python/clean/clean_async_security.py",
+    "runs": 3,
+    "mode": "text",
+    "meta_ms": [
+      517,
+      536,
+      497
+    ],
+    "module_ms": [
+      1063,
+      1036,
+      1056
+    ],
+    "meta_ms_p50": 517,
+    "module_ms_p50": 1056,
+    "overhead_ms_p50": -546,
+    "overhead_ms_p95": -500,
+    "target_overhead_ms_p95": 150
+  }
+}
